@@ -1,0 +1,239 @@
+
+.container {
+    width:1150px;
+    margin:0px auto;
+    transition: .5s;
+}
+
+
+/*    START HEADER   */
+
+.nav-bar {
+    text-align:center;
+    position:fixed;
+    background:#fff;
+    top:0;
+    width:100%
+    
+}
+
+.nav-bar ul {
+    padding:0px;
+    list-style:none;
+
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    padding: 0px 50px;
+    text-transform:uppercase;
+    font-weight:bold;
+    transition: .5s;
+}
+
+.nav-bar ul li a{
+    text-decoration:none;
+    color:#000;
+    transition: .5s;
+}
+
+.nav-bar ul li a:hover {
+    color:#EF233C;
+    
+}
+
+.header {
+    height:600px;
+    background:#2B2D42;
+    color:#FFF;
+    position: relative
+}
+
+.btm-download {
+    padding: 10px;
+    background: #EF233C;
+    position: absolute;
+    color:#FFF;
+    bottom:0%;
+    right: 0%;
+    text-decoration:none
+}
+
+.header .logo,
+.header .main-info {
+    float: left;
+}
+
+.header .logo {
+    width:35%;
+    margin-right: 7%;
+    margin-top: 100px;
+}
+
+.header .logo img {border-radius:50%;}
+
+.header .main-info {
+    width:58%;
+    margin-top: 130px;
+}
+
+.header .main-info h1 {
+    font-family:Caveat,cursive;
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+.header .main-info h2 {
+    font-family:Caveat,cursive;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.header .main-info p{
+    font-size: 17px;
+    color:#8D99AE;
+    line-height:1.5
+}
+
+ .header p a {color:#EF233C}
+.header a:hover {text-decoration:none}
+
+
+/*    END HEADER    */
+
+/*    START WORK EXPERIECE    */
+
+.work-exp {
+    background:#EDF2F4;
+    overflow:hidden;
+    line-height:1.5;
+    padding-bottom: 20px
+}
+
+.work-exp h2 {
+    font-family:Caveat,cursive;
+    font-size: 2.3em;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.work-exp h3 {color:#2B2D42}
+
+.work-exp p {color:#2B2D42;font-size:17px}
+
+.work-exp span {color:#2B2D42;font-size:22px}
+
+.work-exp a {color:#EF233C}
+
+.work-exp a:hover {text-decoration:none}
+
+.work-exp ul li {color:#232539;font-size:18px}
+
+.work-exp .exp {
+    width:100%;
+    overflow:hidden;margin:50px 0
+}
+
+.left{float:left;width:25%}
+.right{float:right;width:65%}
+
+/*    END WORK EXPERIECE    */
+
+/*    START EDUCATION    */
+
+.edu {
+    background-image: url(../img/EDU.jpg);
+    background-color: gray;
+    height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:contrast(.8);
+    padding: 100px 0
+}
+
+.edu h2 {
+    font-family:Caveat,cursive;
+    font-size: 3em;
+    margin-bottom: 20px;
+    
+}
+
+/*    END EDUCATION    */
+
+/*    START FOOTER    */
+
+.footer {background:#2B2D42;height: 300px;position: relative;padding: 80px 0;text-align:center}
+
+.footer h2 {
+    font-family:Caveat,cursive;
+    font-size: 3em;
+    margin-bottom: 230px;
+    margin-top:0;
+    color:#8D99AE
+    
+}
+
+.footer p {font-size: 24px;color:#8D99AE}
+
+.footer p a {color:#EF233C}
+.footer p a:hover {text-decoration:none}
+
+.footer ul {
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    position: relative;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 50%;
+    text-align:center;
+    line-height: 50px;
+    background: linear-gradient(0deg,#aaa,#fff);
+    box-shadow: 0px 30px 30px rgba(0,0,0,0.6);
+    transition: .5s;
+}
+
+.footer ul li a:hover {
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.6);
+    
+}
+
+.footer ul li a .fa {
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 50px;
+    background: linear-gradient(0deg,#fff,#aaa);
+    border-radius: 50%;
+    font-size: 30px;
+    color: #262626;
+    transition: .5s;
+}
+
+.footer ul li:nth-child(1) a:hover .fa {color: #3b5999}
+.footer ul li:nth-child(2) a:hover .fa {color: #55acee}
+.footer ul li:nth-child(3) a:hover .fa {color: #e4405f}
+.footer ul li:nth-child(4) a:hover .fa {color: #dd4b39}
+.footer ul li:nth-child(5) a:hover .fa {color: #0077B5}
+
+/*    END FOOTER    */
